@@ -1,4 +1,4 @@
-var _tazzo$elm_markdown_math$Native_MarkdownMath = function() {
+var _sp4ghet$elm_markdown_math$Native_MarkdownMath = function() {
 
 
 // VIRTUAL-DOM WIDGETS
