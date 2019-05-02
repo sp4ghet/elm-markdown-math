@@ -22,7 +22,7 @@ content =
 You can [download KaTeX](https://github.com/khan/katex/releases) and host it on your server or include the  `katex.min.css` files on your page directly from a CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" crossorigin="anonymous">
 ```
 **Warning:** Calling `MarkdownMath.toHtml` parses the whole block, so try not to
 call it for no reason. In the `content` example above we only have to parse
