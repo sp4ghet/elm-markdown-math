@@ -158,7 +158,7 @@ function formatOptions(options)
 	}
 
 	var returnOptions = {
-		renderer: createRenderer()
+		renderer: createRenderer(),
 		highlight: toHighlight,
 		sanitize: options.sanitize,
 		smartypants: options.smartypants
