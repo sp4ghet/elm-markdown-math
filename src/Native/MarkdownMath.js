@@ -132,6 +132,7 @@ var katex = function() {
 
 function createRenderer(){
 	var renderer = new marked.Renderer();
+	console.log("fuck");
 	var linkRenderer = renderer.link;
 	//https://github.com/markedjs/marked/issues/655#issuecomment-383226346
 	renderer.link = (href, title, text) => {
