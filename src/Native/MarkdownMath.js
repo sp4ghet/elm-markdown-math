@@ -1,3 +1,4 @@
+
 var _sp4ghet$elm_markdown_math$Native_MarkdownMath = function() {
 
 
@@ -131,6 +132,7 @@ var katex = function() {
 
 function createRenderer(){
 	var renderer = new marked.Renderer();
+	var linkRenderer = renderer.link;
 	//https://github.com/markedjs/marked/issues/655#issuecomment-383226346
 	renderer.link = (href, title, text) => {
 	    const html = linkRenderer.call(renderer, href, title, text);
